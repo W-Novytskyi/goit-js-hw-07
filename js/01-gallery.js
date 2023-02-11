@@ -26,11 +26,11 @@ function onImgOriginalCard(e) {
         return
     }
     
-    console.log(e.target);
+    // console.log(e.target);
     
     const instance = basicLightbox.create(`
     <img src="${e.target.dataset.sourse}" width="800" height="600">
     `)
     
     instance.show();
-}
+};
